@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OakNorth Test Suite" parallel="tests">
+
+	<test name="TestSuite" preserve-order="true">
+
+		<classes>
+
+			<class name="com.oaknorth.testcases.TestCase1" />
+			<methods>
+				<include name="tc1" />
+			</methods>
+
+		</classes>
+	</test>
+</suite>
