@@ -13,7 +13,7 @@ public class TestCase1 extends CommonMethods{
   @Test
   public void tc1() throws IOException {
 	 HomePage hPage=new HomePage(driver);
-	 startR("Deposit");
+	 startR("Depositske");
 	  hPage.verifyURL();
 	  hPage.clickHomeSavingTab();
 	  hPage.personalFixedDep();
