@@ -12,7 +12,7 @@ import com.oaknorth.config.CommonMethods;
 
 public class HomePage extends CommonMethods {
 
-	public HomePage(WebDriver driver) {
+	public HomePage(Webr driver) {
 
 		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 30);
 		PageFactory.initElements(factory, this);
